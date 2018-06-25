@@ -1,0 +1,19 @@
+Been receiving the error as below while installing requests module with pip on MAC, thus used the following url where I could get install.
+ 
+Error :
+The directory '/Users/nimane/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/nimane/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting requests
+  Could not fetch URL https://pypi.python.org/simple/requests/: There was a problem confirming the ssl certificate: [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:661) - skipping
+  Could not find a version that satisfies the requirement requests (from versions: )
+No matching distribution found for requests
+ 
+ 
+Link used:
+ 
+https://stackoverflow.com/questions/49768770/not-able-to-install-python-packages-ssl-tlsv1-alert-protocol-version
+ 
+ 
+ 
+Final Command used : sudo pip install requests
+ 
